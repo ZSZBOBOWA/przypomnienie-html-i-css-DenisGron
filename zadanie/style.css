@@ -1,0 +1,50 @@
+.header {
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    line-height: 120px;
+    font-family: Arial, sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: #ADD8E6;
+}
+
+main {
+    padding: 20px;
+    text-align: left;
+    color: #000080;
+    font-size: 18px;
+}
+
+aside {
+    padding: 20px;
+    color: #000080;
+    font-size: 16px;
+}
+
+footer {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    line-height: 60px;
+}

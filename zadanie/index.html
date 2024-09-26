@@ -3,42 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-    <body>
-        <div class="header">Nagłówek</div>
-        <nav>Menu nawigacyjne</nav>
-        <main>Główna zawartość</main>
-        <aside>Panel boczny</aside>
-        <footer>Stopka</footer>
-    <style>
-        .header {
-            width: 100%;
-            height: 40px;
-            background-color: #1E90FF;
-        }
-        nav {
-            width: 100%;
-            height: 40px;
-            background-color: #4682B4;
-        }
-        main {
-            width: 70%;
-            min-height: 400px;
-            background-color: #F0F8FF;
-            float: left;
-        }
-        aside {
-            width: 30%;
-            min-height: 400px;
-            background-color: #B0C4DE;
-            float: right;
-        }
-        footer {
-            width: 100%;
-            height: 60px;
-            background-color: #1E90FF;
-            clear: both;
-        }
-    </style>
-    </body>
+    <link rel="stylesheet" href="style.css">
 </head>
+<style>
+    .header {
+        width: 100%;
+        height: 120px;
+        background-color: #1E90FF;
+    }
+    nav {
+        width: 100%;
+        height: 40px;
+        background-color: #4682B4;
+    }
+    main {
+        width: 70%;
+        min-height: 400px;
+        background-color: #F0F8FF;
+        float: left;
+    }
+    aside {
+        width: 30%;
+        min-height: 400px;
+        background-color: #B0C4DE;
+        float: right;
+    }
+    footer {
+        width: 100%;
+        height: 60px;
+        background-color: #1E90FF;
+        clear: both;
+    }
+</style>
+<body>  
+    <header id="header">Nagłówek</header>
+    <nav id="nav">
+        <ul>
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+        </ul>
+    </nav>
+    
+    <main id="main">Główna zawartość</main>
+
+    <aside id="aside">Panel boczny</aside>
+
+    <footer id="footer">Stopka</footer>
+</body>
 </html>
+</head>
