@@ -1,0 +1,76 @@
+body {
+    margin: auto;
+    padding: auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav{
+    background-color: #E1BEE7;
+    width: 25%;
+    height: 400px;
+    float: left;
+}
+
+header{
+    background-color: #9C64A6;
+    color: white;
+    height: 150px;
+    width: 75%;
+    font-size: 170%;
+    text-align: center;
+    letter-spacing: 5px;
+    float: left;
+}
+
+main {
+    background-color: white;
+    height: 580px;
+    width: 75%;
+    font-size: 170%;
+    text-align: center;
+    float: right;
+    color: indigo;
+}
+aside{
+    background-color: #E1BEE7;
+    width: 25%;
+    height: 330px;
+    float: left;
+}
+
+footer{
+    background-color: #9C64A6;
+    color: white;
+    padding: 10px;
+    clear: both;
+}
+
+h2{
+    text-align: center;
+}
+
+ul{
+    list-style: circle;
+}
+
+img{
+    padding: 4px;
+    margin: 15px;
+}
+
+img:hover{
+    padding: 3px;
+    border: 3px dashed indigo;
+}
+
+.odsyłacz{
+    padding: 25px;
+}
+
+.img1{
+    width: 240px;
+}
+
+.img2{
+    width: 700px;
+}
