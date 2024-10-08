@@ -33,6 +33,7 @@
                 <label><input type="checkbox" name="Makijaż" value="Makijaż">Makijaż</label><br>
                 <button type="button" onclick="oblicz()">Oblicz cenę</button>
             </form>
+            <p id="result">Cena wizyty: 0zł</p>
         </div>
     </main>
     <aside>
@@ -42,4 +43,27 @@
         <p>Autor:Denis Groń</p>
     </footer>
 </body>
+<script>
+    function oblicz(){
+        const checkboxes = document.querySelectorAll('input[type="checkbox"]:checked');
+        let cena = 0;
+        checkboxes.forEach((checkbox) => {
+            switch(checkbox.value) {
+                case "Peeling":
+                    cena += 45;
+                    break;
+                case "Maska":
+                    cena += 30;
+                    break;
+                case "Masaż twarzy":
+                    cena += 20;
+                    break;
+                case "Makijaż":
+                    cena += 50;
+                    break;
+            }
+        });
+        document.getElementById("result").innerHTML = "Cena wizyty: " + cena + " zł";
+    }
+</script>
 </html>
